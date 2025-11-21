@@ -1,2 +1,48 @@
 
-hg 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ian Masika - Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Ian Masika's Personal Website</h1>
+        <p>Your short intro goes here!</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is <strong>Ian Masika</strong>. I am passionate about technology, coding, design, and learning new skills. This is my first HTML project!</p>
+    </section>
+
+    <section class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Graphic Design</li>
+            <li>Computer Basics</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Ian Masika - Personal Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
